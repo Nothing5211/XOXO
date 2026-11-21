@@ -39218,8 +39218,8 @@ L=true
 
 aw:Dialog{
 
-Title="Close Window",
-Content="Do you want to close this window? You will not be able to open it again.",
+Title="关闭",
+Content="你想关闭这个窗口吗？关闭后将无法再次打开。",
 Buttons={
 {
 Title="Cancel",
@@ -39230,7 +39230,7 @@ end,
 Variant="Secondary",
 },
 {
-Title="Close Window",
+Title="关闭UI窗口",
 
 Callback=function()
 L=false
